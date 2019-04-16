@@ -10,11 +10,16 @@
 </head>
 <body>
 	<div>
-		<br />		
-		<center><h2>Main Menu</h2>
-		<html:link action="/Action"><font color="black" size="4">Information Leakage</font> </html:link>
-		<br />
-		<html:link action="/xssinput" ><font color="black" size="4">XSS Issue   </font> </html:link></center>	
+		<center>
+			<table cellpadding="2" cellspacing="7" border="0" align="center">
+				<tr>
+					<td><html:link action="/InformationLeakageAction">
+							<font color="black" size="2">Information Leakage Fix</font>
+						</html:link></td>
+					<td><html:link action="/xssinputfix">
+							<font color="black" size="2">XSS Fix </font>
+						</html:link></td>
+			</table></center>
 	</div>
 </body>
 </html>

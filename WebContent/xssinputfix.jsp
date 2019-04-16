@@ -15,7 +15,7 @@
 	<div class="login">
 		<h1 align="Center">XSS Input Page</h1>
 		<html:form action="/xssfix">
-            User Name : <html:text name="XSSLessonForm"
+            Enter Text : <html:text name="XSSLessonForm"
 				styleClass="input" property="userName" />
 			
 			<html:submit value="XSS Testing"

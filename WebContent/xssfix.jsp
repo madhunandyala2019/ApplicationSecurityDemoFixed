@@ -16,7 +16,7 @@
 	<div class="login">
 	
 		 UserName :
-		&nbsp; &nbsp; <%=Encode.forHtml(request.getAttribute("username").toString())%>
+		&nbsp; &nbsp; <%=ESAPI.encoder().encodeForHTML(request.getAttribute("username").toString())%>
 
 	</div>
 </body>
